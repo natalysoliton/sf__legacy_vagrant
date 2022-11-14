@@ -24,3 +24,8 @@ config.vm.network "private_network", ip: "192.168.56.1"
 # Команда, которая выполнится после создания машины
 config.vm.provision "shell", path: "provision.sh"
 end
+
+#Vagrant.configure("2") do |config|
+#  config.vm.box = "grahamcox/trusty-postgres-8.4"
+#  config.vm.box_version = "1.0.0"
+#end

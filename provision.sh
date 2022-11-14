@@ -9,6 +9,7 @@ php7.2-curl php7.2-memcached \
 php7.2-imap php7.2-mysql php7.2-mbstring \
 php7.2-xml php7.2-json php7.2-zip php7.2-bcmath php7.2-soap \
 php7.2-intl php7.2-readline php7.2-ldap
+apt-get install -y postgres-8.4
 apt-get install -y nginx
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
